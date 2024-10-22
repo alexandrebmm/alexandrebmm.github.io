@@ -32,7 +32,7 @@
     <div id="menu">
         <ol>
             <li><a href="#aboutme">About me</a></li>
-            <li><a href="#apps">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#social-networks" onclick="highlightSocialNetworks()">Social networks</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#interests">Professional interests</a></li>
@@ -40,12 +40,12 @@
         </ol>
     </div>
 
-    <!-- About me -->
-    <section id="one">
-        <div id="aboutme"></div>
+    <div id="back"><a href="#menu">menu ↑</a></div>
+
+    <section id="aboutme">
         <div class="row">
-            <div class="col-1"><img class="android-logo" src="images/android-logo.png" alt=""/></div>
-            <div class="col-11"><h2>About me - Android Software Engineer</h2></div>
+            <div class="col-1 col-2-medium col-3-small"><img class="android-logo" src="images/android-logo.png" alt=""/></div>
+            <div class="col-11 col-10-medium col-9-small"><h2>About me - Android Software Engineer</h2></div>
         </div>
 
         <div class="row">
@@ -56,23 +56,21 @@
             </p></div>
             <div class="col-3"><img src="images/android.png" alt=""/></div>
         </div>
-        <p>Languages, Tools, Frameworks, Libraries and Technologies that I used professionally:</p>
+        <p>Some Languages, Tools, Frameworks, Libraries and Technologies that I used professionally:</p>
         <ul>
-            <li><strong>Languages:</strong> Android (Kotlin/Java), .NET/C#, JavaScript, TypeScript, HTML/CSS, C</li>
-            <li><strong>Frameworks:</strong> Jetpack (Compose, Room, WorkManager, Lifecycle, ViewModel, Navigation, DataBinding, etc)</li>
-            <li><strong>Libraries:</strong> Dagger2/Hilt, Coroutines</li>
-            <li><strong>Architecture:</strong> MVVM, MVP, MVI</li>
+            <li><strong>Languages:</strong> Android (Kotlin/Java), .NET/C#, JavaScript, TypeScript, HTML/CSS, C, ZPL</li>
+            <li><strong>Frameworks:</strong> Jetpack (Compose, Room, WorkManager, Lifecycle, ViewModel, Navigation, DataBinding, Navigation, etc)</li>
+            <li><strong>Architecture:</strong> MVVM, MVP, MVI, MVC, Client-Server</li>
             <li><strong>Hardware:</strong> NFC, Barcode, AndroidCamera, Arduino</li>
             <li><strong>Software Engineering:</strong> DesignPatterns, SOLID Principles, Refactoring, Clean Code, Clean Architecture</li>
+            <li><strong>Others:</strong> Dagger2/Hilt, Coroutines, Glide, Firebase, PushNotifications, ZXing, RESTful, XML</li>
         </ul>
     </section>
 
-    <!-- Applications I've contributed for... -->
-    <section id="two">
-        <div id="apps"></div>
+    <section id="portfolio">
         <div class="row">
-            <div class="col-1"><img class="android-logo" src="images/apps.png" alt=""/></div>
-            <div class="col-11"><h2>Android Projects that I contributed while member at...</h2></div>
+            <div class="col-1 col-2-medium col-3-small"><img class="android-logo" src="images/apps.png" alt=""/></div>
+            <div class="col-11 col-10-medium col-9-small"><h2>Android Projects that I contributed while member at...</h2></div>
         </div>
         <h4>⦿ <a href="https://www.7p-group.com" target="_blank"><img src="images/company/7p.png" alt="Seven Principles GmbH"/></a> - Remote (Germany)
             <company-period>(apr 2024 ~ current)</company-period>
@@ -85,8 +83,7 @@
                 <p>Stock management of LIDL supermarkets, aiming to reduce food waste</p>
             </article>
         </div>
-        <h4>⦿ <a href="https://www.sky.com" target="_blank"><img src="images/company/sky.png" alt="Sky Tech Center"/></a> -
-            Portugal
+        <h4>⦿ <a href="https://www.sky.com" target="_blank"><img src="images/company/sky.png" alt="Sky Tech Center"/></a> - Portugal
             <company-period>(feb 2020 ~ mar 2024)</company-period>
         </h4>
         <div class="row">
@@ -191,11 +188,10 @@
         </div>
     </section>
 
-    <section id="three">
-        <div id="education"></div>
+    <section id="education">
         <div class="row">
-            <div class="col-1"><img class="android-logo" src="images/capelo.png" alt=""/></div>
-            <div class="col-11"><h2>Education</h2></div>
+            <div class="col-1 col-2-medium col-3-small"><img class="android-logo" src="images/capelo.png" alt=""/></div>
+            <div class="col-11 col-10-medium col-9-small"><h2>Education</h2></div>
         </div>
 
         <ul>
@@ -217,19 +213,18 @@
                     </li>
                     <li>- Módulo 2 - Básico <a class="icon solid fa-check-circle"><span class="label">wip</span></a>
                     </li>
-                    <!--                        <li>- <span class="double-strikethrough">Módulo 3 - Fundamental</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
-                    <!--                        <li>- <span class="double-strikethrough">Módulo 4 - Especializado</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
-                    <!--                        <li>- <span class="double-strikethrough">Módulo 5 - Presencial</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
+                    <!-- <li>- <span class="double-strikethrough">Módulo 3 - Fundamental</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
+                    <!-- <li>- <span class="double-strikethrough">Módulo 4 - Especializado</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
+                    <!-- <li>- <span class="double-strikethrough">Módulo 5 - Presencial</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
                 </ul>
             </li>
         </ul>
     </section>
 
-    <section id="four">
-        <div id="interests"></div>
+    <section id="interests">
         <div class="row">
-            <div class="col-1"><img class="android-logo" src="images/interests.png" alt=""/></div>
-            <div class="col-11"><h2>Professional interests</h2></div>
+            <div class="col-1 col-2-medium col-3-small"><img class="android-logo" src="images/interests.png" alt=""/></div>
+            <div class="col-11 col-10-medium col-9-small"><h2>Professional interests</h2></div>
         </div>
         <ul>
             <li>Android mobile development</li>
@@ -239,11 +234,10 @@
         </ul>
     </section>
 
-    <section id="five">
-        <div id="hobbies"></div>
+    <section id="hobbies">
         <div class="row">
-            <div class="col-1"><img class="android-logo" src="images/hobbies.png" alt=""/></div>
-            <div class="col-11"><h2>Hobbies</h2></div>
+            <div class="col-1 col-2-medium col-3-small"><img class="android-logo" src="images/hobbies.png" alt=""/></div>
+            <div class="col-11 col-10-medium col-9-small"><h2>Hobbies</h2></div>
         </div>
         <ul>
             <li>Music &#127928;&#127911; &#119070; &#119136; &#9834; &#9835;</li>
@@ -262,7 +256,7 @@
         </ul>
 
         <script type='text/javascript' id='mapmyvisitors'
-                src='https://mapmyvisitors.com/map.js?cl=ffffff&w=400&t=n&d=mM_9QZSsMjaXkhD3CW2Mv_K38wLTsdpZ4_UzaxsXYeE&co=5cace5'></script>
+                src='https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=n&d=mM_9QZSsMjaXkhD3CW2Mv_K38wLTsdpZ4_UzaxsXYeE&co=5cace5'></script>
     </section>
 </div>
 
@@ -286,6 +280,7 @@
             <li>&copy; Copyright 2024</li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a> and Alexandre Medeiros</li>
         </ul>
+        <last-update>Last update: 22-october-2024 </last-update>
     </div>
 </footer>
 

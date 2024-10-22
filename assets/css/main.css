@@ -44,6 +44,16 @@ company-period {
     color: chocolate;
 }
 
+last-update {
+    font-style: italic;
+    font-weight: lighter;
+    margin-right: 10px;
+    font-size: 8pt;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .transparent-border {
     border-radius: 20px;
     border: 2px dashed transparent;
@@ -2193,6 +2203,15 @@ input[type="radio"] + label:before {
 
 }
 
+#back {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    bottom: 0;
+    right: 0;
+    margin: 12px;
+}
+
 #menu ol {
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -2203,6 +2222,8 @@ input[type="radio"] + label:before {
 }
 
 #menu ol li {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.75em;
     list-style: none;
     display: inline;
     float: left;
