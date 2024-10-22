@@ -1,19 +1,301 @@
-<html>
-
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en-US">
 <head>
-<title>Alexandre Medeiros - Software Engineer</title>
+    <title>Android Software Engineer - Alexandre Medeiros</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
 </head>
+<body class="is-preload">
 
-<body>
-<h1>Alexandre Medeiros</h1>
-<h3>Software Engineer</h3>
-<p>Hi! I'm a Software Engineer</p>
-<img src="img/profile.jpg" width="288" height="512" />
-<ul>
-<li>Android (Java/Kotlin)</li>
-<li>Spring Boot</li>
-<li>.NET/C#</li>
-</ul>
+<!-- Header -->
+<header id="header">
+    <div class="inner">
+        <a href="#" class="image avatar"><img src="images/me.png" alt=""/></a>
+        <h1>Hello, I am <strong>Alexandre</strong>,
+            <br/>a software engineer from Brazil <img class="flag" src="images/flag_br.png" alt=""/>
+        </h1>
+        <h5>
+            B.Sc. in Computer Science
+            <br/>currently based in Lisbon, Portugal <img class="flag" src="images/flag_pt.png" alt=""/>
+        </h5>
+    </div>
+</header>
+
+<!-- Main -->
+<div id="main">
+    <div id="menu">
+        <ol>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#apps">Portfolio</a></li>
+            <li><a href="#social-networks" onclick="highlightSocialNetworks()">Social networks</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#interests">Professional interests</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+        </ol>
+    </div>
+
+    <!-- About me -->
+    <section id="one">
+        <div id="aboutme"></div>
+        <div class="row">
+            <div class="col-1"><img class="android-logo" src="images/android-logo.png" alt=""/></div>
+            <div class="col-11"><h2>About me - Android Software Engineer</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col-9"><p>I have been developing software professionally for almost a decade. Over the years, I
+                have been able to gather many interesting challenges and awards, which I would like to share here.<br/>
+                As a Software Engineer, my main concerns are related to build software as maintainable and readable as
+                possible.
+            </p></div>
+            <div class="col-3"><img src="images/android.png" alt=""/></div>
+        </div>
+        <p>Languages, Tools, Frameworks, Libraries and Technologies that I used professionally:</p>
+        <ul>
+            <li><strong>Languages:</strong> Android (Kotlin/Java), .NET/C#, JavaScript, TypeScript, HTML/CSS, C</li>
+            <li><strong>Frameworks:</strong> Jetpack (Compose, Room, WorkManager, Lifecycle, ViewModel, Navigation, DataBinding, etc)</li>
+            <li><strong>Libraries:</strong> Dagger2/Hilt, Coroutines</li>
+            <li><strong>Architecture:</strong> MVVM, MVP, MVI</li>
+            <li><strong>Hardware:</strong> NFC, Barcode, AndroidCamera, Arduino</li>
+            <li><strong>Software Engineering:</strong> DesignPatterns, SOLID Principles, Refactoring, Clean Code, Clean Architecture</li>
+        </ul>
+    </section>
+
+    <!-- Applications I've contributed for... -->
+    <section id="two">
+        <div id="apps"></div>
+        <div class="row">
+            <div class="col-1"><img class="android-logo" src="images/apps.png" alt=""/></div>
+            <div class="col-11"><h2>Android Projects that I contributed while member at...</h2></div>
+        </div>
+        <h4>⦿ <a href="https://www.7p-group.com" target="_blank"><img src="images/company/7p.png" alt="Seven Principles GmbH"/></a> - Remote (Germany)
+            <company-period>(apr 2024 ~ current)</company-period>
+        </h4>
+        <div class="row">
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_autodispo.png" class="image fit thumb"><img
+                        src="images/thumbs/app_autodispo.png" alt=""/></a>
+                <h3>AutoDispo Mobile</h3>
+                <p>Stock management of LIDL supermarkets, aiming to reduce food waste</p>
+            </article>
+        </div>
+        <h4>⦿ <a href="https://www.sky.com" target="_blank"><img src="images/company/sky.png" alt="Sky Tech Center"/></a> -
+            Portugal
+            <company-period>(feb 2020 ~ mar 2024)</company-period>
+        </h4>
+        <div class="row">
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_showmax.png" class="image fit thumb"><img src="images/thumbs/app_showmax.png"
+                                                                                    alt=""/></a>
+                <h3><a href="https://play.google.com/store/apps/details?id=com.showmax.showmax.google" target="_blank">Showmax</a>
+                </h3>
+                <p>Streaming service application</p>
+                <p>Available only in Africa</p>
+            </article>
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_skyshowtime.png" class="image fit thumb"><img
+                        src="images/thumbs/app_skyshowtime.png" alt=""/></a>
+                <h3><a href="https://www.skyshowtime.com/" target="_blank">SkyShowtime</a></h3>
+                <p>Streaming service application</p>
+                <p>Available only in Europe</p>
+            </article>
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_peacocktv.png" class="image fit thumb"><img
+                        src="images/thumbs/app_peacocktv.png" alt=""/></a>
+                <h3><a href="https://play.google.com/store/apps/details?id=com.peacocktv.peacockandroid"
+                       target="_blank">PeacockTV</a></h3>
+                <p>Streaming service application</p>
+                <p>App available in USA</p>
+            </article>
+        </div>
+        <br/>
+        <h4>⦿ <a href="https://www.virtus.ufcg.edu.br" target="_blank"><img src="images/company/virtus.png" alt="Virtus"/></a>
+            - Brazil
+            <company-period>(sept 2015 ~ jan 2020)</company-period>
+        </h4>
+        <div class="row">
+            <!-- Pixsee -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_pixsee.png" class="image fit thumb"><img src="images/thumbs/app_pixsee.png" alt="Pixsee Baby Monitor"/></a>
+                <h3><a href="https://play.google.com/store/apps/details?id=com.compal.bioslab.pixsee.pixm01&hl=en_US" target="_blank">pixsee</a></h3>
+                <p>Smart Baby Monitor</p>
+                <p>Responsible for implementing several critical features</p>
+            </article>
+            <!-- Ingeteam -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_ingecon.png" class="image fit thumb" target="_blank"><img src="images/thumbs/app_ingecon.png" alt="Ingecon Sun Monitor"/></a>
+                <h3><a href="https://play.google.com/store/apps/details?id=com.ingeteam.ingecon.sunmonitor"
+                       target="_blank">Ingecon Sun Monitor</a></h3>
+                <p>Manage PhotoVoltaic PowerPlants</p>
+            </article>
+            <!-- CheckIn -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_checkin.png" class="image fit thumb"><img src="images/thumbs/app_checkin.png" alt="Check-In"/></a>
+                <h3>Check-In</h3>
+                <p>App connected to 5G module where schools make de roll call at the entrance using facial recognition
+                    and parents are aware if their children are attending or skipping the classes.</p>
+            </article>
+            <!-- ESD -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_esd.png" class="image fit thumb"><img src="images/thumbs/app_esd.png" alt="Electrostatic Discharge"/></a>
+                <h3>SI2 - Electrostatic Discharge</h3>
+                <p>Manage the usage of electronic components, guaranteeing that they </p>
+                <p>Lead developer</p>
+            </article>
+            <!-- MSD -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_msd.png" class="image fit thumb"><img src="images/thumbs/app_msd.png" alt="Moisture Sensitivity Devices"/></a>
+                <h3>SI2 - Moisture Sensitivity Device</h3>
+                <p>Manage electronic components exposure time to relative humidity, controlling the whole process (baking, vacuum sealing, freezing, etc).</p>
+                <p>Lead developer</p>
+            </article>
+            <!-- Kiosk -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_kiosk.png" class="image fit thumb"><img src="images/thumbs/app_kiosk.png" alt=""/></a>
+                <h3>SI2 - Kiosk Mode - Launcher</h3>
+                <p>Android Launcher that allows showing and opening only the apps chosen by device managers.</p>
+                <p>Lead developer</p>
+            </article>
+            <!-- PCB Wash -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_pcbwash.png" class="image fit thumb"><img src="images/thumbs/app_pcbwash.png"
+                                                                                    alt=""/></a>
+                <h3>SI2 - Lavagem de Placas</h3>
+                <p>Manage the entire process of washing printed circuit boards (PCB) and inspection.</p>
+                <p>Lead developer</p>
+            </article>
+            <!-- Stencil -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/app_stencil.png" class="image fit thumb"><img src="images/thumbs/app_stencil.png"
+                                                                                    alt=""/></a>
+                <h3>SI2 - Inspeção de lavagem</h3>
+                <p>Manage the entire washing process of stencil boards. Includes user notifications when washing time is
+                    about to expire.</p>
+                <p>Lead developer</p>
+            </article>
+            <!-- Checklist -->
+            <article class="col-4 col-12-xsmall work-item">
+                <a href="images/fulls/ic_checklist.png" class="image fit thumb"><img
+                        src="images/thumbs/app_checklist.png" alt=""/></a>
+                <h3>SI2 - Checklist de Manutenção</h3>
+                <p>Aides the workers to perform all types of maintenance on a hardware manufacturer's machines
+                    correctly, by following a checklist and adding comments.</p>
+                <p>Lead developer</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="three">
+        <div id="education"></div>
+        <div class="row">
+            <div class="col-1"><img class="android-logo" src="images/capelo.png" alt=""/></div>
+            <div class="col-11"><h2>Education</h2></div>
+        </div>
+
+        <ul>
+            <!--                <img src="./images/education/ufcg.png" /><br />-->
+            <li>B.Sc. Computer Science - <a href="https://portal.ufcg.edu.br" target="_blank">Federal University of
+                Campina Grande</a></li>
+            <!--                <br />-->
+            <!--                <img src="./images/education/unitue.png" /><br />-->
+            <li>Informatik - <a href="https://uni-tuebingen.de/" target="_blank">Eberhard Karls Universität Tübingen</a>
+                <ul>
+                    <li>- Exchange student sponsored by Brazilian Government through "Science Without Borders"-Program
+                    </li>
+                </ul>
+            </li>
+            <li>Cybersecurity - <a href="https://www.hackersdobem.org.br" target="_blank">Hackers do bem</a> - <i>Sponsored
+                by Brazilian Government</i>
+                <ul>
+                    <li>- Módulo 1 - Nivelamento <a class="icon solid fa-check-circle"><span class="label">check</span></a>
+                    </li>
+                    <li>- Módulo 2 - Básico <a class="icon solid fa-check-circle"><span class="label">wip</span></a>
+                    </li>
+                    <!--                        <li>- <span class="double-strikethrough">Módulo 3 - Fundamental</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
+                    <!--                        <li>- <span class="double-strikethrough">Módulo 4 - Especializado</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
+                    <!--                        <li>- <span class="double-strikethrough">Módulo 5 - Presencial</span> <a class="icon solid fa-angle-double-right"><span class="label">Email</span></a></li>-->
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="four">
+        <div id="interests"></div>
+        <div class="row">
+            <div class="col-1"><img class="android-logo" src="images/interests.png" alt=""/></div>
+            <div class="col-11"><h2>Professional interests</h2></div>
+        </div>
+        <ul>
+            <li>Android mobile development</li>
+            <li>Software engineering</li>
+            <li>Computer networks</li>
+            <li>Cybersecurity</li>
+        </ul>
+    </section>
+
+    <section id="five">
+        <div id="hobbies"></div>
+        <div class="row">
+            <div class="col-1"><img class="android-logo" src="images/hobbies.png" alt=""/></div>
+            <div class="col-11"><h2>Hobbies</h2></div>
+        </div>
+        <ul>
+            <li>Music &#127928;&#127911; &#119070; &#119136; &#9834; &#9835;</li>
+            <li>Swimming &#127946;</li>
+            <li>Reading &#128214;</li>
+            <li>Electronic & Board games &#127918; &#127922;</li>
+            <li>Travelling &#128746; &#128506;</li>
+            <li>Languages &#128483;
+                <ul>
+                    <li>English - Professional proficiency</li>
+                    <li>Portuguese - Native</li>
+                    <li>German - Intermediary</li>
+                    <li>French - Intermediary</li>
+                </ul>
+            </li>
+        </ul>
+
+        <script type='text/javascript' id='mapmyvisitors'
+                src='https://mapmyvisitors.com/map.js?cl=ffffff&w=400&t=n&d=mM_9QZSsMjaXkhD3CW2Mv_K38wLTsdpZ4_UzaxsXYeE&co=5cace5'></script>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <!--            <span class="icon solid fa-hand-point-right"><span class="label">Socials</span></span>-->
+        <div id="social-networks" class="transparent-border">
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/alexandrebmm" class="icon brands fa-linkedin"
+                       target="_blank"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.instagram.com/alexandrebmm" class="icon brands fa-instagram"><span
+                        class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands fa-stack-overflow"><span class="label">StackOverflow</span></a></li>
+                <li><a href="https://www.github.com/alexandrebmm" class="icon brands fa-github"><span class="label">Github</span></a>
+                </li>
+                <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+        </div>
+        <ul class="copyright">
+            <li>&copy; Copyright 2024</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a> and Alexandre Medeiros</li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
-
 </html>
